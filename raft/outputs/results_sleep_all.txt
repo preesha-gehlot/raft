@@ -1,0 +1,118 @@
+mix compile
+Compiling 1 file (.ex)
+-------------------------------------------------------------------
+calling cluster start
+server 2 is starting an election with term 1
+server 3 is starting an election with term 1
+2 is now leader with term 1
+  time = 1000 client requests seen = [{2, 1743}]
+  time = 1000      db updates done = [{1, 1741}, {2, 1742}, {3, 1740}, {4, 1742}, {5, 1742}]
+
+  time = 2000 client requests seen = [{2, 4253}]
+  time = 2000      db updates done = [{1, 4251}, {2, 4252}, {3, 4251}, {4, 4251}, {5, 4251}]
+
+server 3 is starting an election with term 2
+3 is now leader with term 2
+  time = 3000 client requests seen = [{2, 4367}, {3, 4}]
+  time = 3000      db updates done = [{1, 4366}, {2, 4366}, {3, 4366}, {4, 4366}, {5, 4366}]
+
+  time = 4000 client requests seen = [{2, 4367}, {3, 4}]
+  time = 4000      db updates done = [{1, 4366}, {2, 4366}, {3, 4366}, {4, 4366}, {5, 4366}]
+
+Server 3 is sleeping
+Server 2 is waking up
+Server 1 is waking up
+server 1 is starting an election with term 2
+server 4 is starting an election with term 3
+4 is now leader with term 3
+  time = 5000 client requests seen = [{2, 4371}, {3, 4}, {4, 1020}]
+  time = 5000      db updates done = [{1, 5388}, {2, 5388}, {3, 4366}, {4, 5388}, {5, 5388}]
+
+  time = 6000 client requests seen = [{2, 4371}, {3, 4}, {4, 1523}]
+  time = 6000      db updates done = [{1, 5890}, {2, 5890}, {3, 4366}, {4, 5890}, {5, 5877}]
+
+Server 3 is waking up
+Server 4 is sleeping
+server 2 is starting an election with term 4
+2 is now leader with term 4
+  time = 7000 client requests seen = [{2, 4374}, {3, 5}, {4, 1541}]
+  time = 7000      db updates done = [{1, 5910}, {2, 5910}, {3, 5900}, {4, 5910}, {5, 5910}]
+
+  time = 8000 client requests seen = [{2, 5160}, {3, 5}, {4, 1541}]
+  time = 8000      db updates done = [{1, 6696}, {2, 6698}, {3, 6674}, {4, 5910}, {5, 6698}]
+
+Server 5 is sleeping
+Server 4 is waking up
+server 1 is starting an election with term 5
+server 3 is starting an election with term 6
+3 is now leader with term 6
+  time = 9000 client requests seen = [{2, 5242}, {3, 51}, {4, 1544}]
+  time = 9000      db updates done = [{1, 6824}, {2, 6824}, {3, 6824}, {4, 6778}, {5, 6718}]
+
+  time = 10000 client requests seen = [{2, 5242}, {3, 858}, {4, 1544}]
+  time = 10000      db updates done = [{1, 7632}, {2, 7632}, {3, 7632}, {4, 7617}, {5, 6718}]
+
+Server 5 is waking up
+  time = 11000 client requests seen = [{2, 5242}, {3, 1129}, {4, 1544}]
+  time = 11000      db updates done = [{1, 7904}, {2, 7905}, {3, 7905}, {4, 7905}, {5, 7872}]
+
+  time = 12000 client requests seen = [{2, 5242}, {3, 1415}, {4, 1544}]
+  time = 12000      db updates done = [{1, 8192}, {2, 8192}, {3, 8192}, {4, 8171}, {5, 8167}]
+
+  time = 13000 client requests seen = [{2, 5242}, {3, 1738}, {4, 1544}]
+  time = 13000      db updates done = [{1, 8514}, {2, 8514}, {3, 8514}, {4, 8475}, {5, 8477}]
+
+Node client5_04_pg721@127.0.0.1 Going to Sleep - Client 5 all requests completed = 1750
+Node client2_04_pg721@127.0.0.1 Going to Sleep - Client 2 all requests completed = 1750
+Node client4_04_pg721@127.0.0.1 Going to Sleep - Client 4 all requests completed = 1750
+  time = 14000 client requests seen = [{2, 5242}, {3, 1932}, {4, 1544}]
+  time = 14000      db updates done = [{1, 8708}, {2, 8708}, {3, 8708}, {4, 8704}, {5, 8706}]
+
+Node client1_04_pg721@127.0.0.1 Going to Sleep - Client 1 all requests completed = 1750
+Node client3_04_pg721@127.0.0.1 Going to Sleep - Client 3 all requests completed = 1750
+  time = 15000 client requests seen = [{2, 5242}, {3, 1972}, {4, 1544}]
+  time = 15000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+  time = 16000 client requests seen = [{2, 5242}, {3, 1972}, {4, 1544}]
+  time = 16000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+  time = 17000 client requests seen = [{2, 5242}, {3, 1972}, {4, 1544}]
+  time = 17000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+  time = 18000 client requests seen = [{2, 5242}, {3, 1972}, {4, 1544}]
+  time = 18000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+  time = 19000 client requests seen = [{2, 5242}, {3, 1972}, {4, 1544}]
+  time = 19000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+  time = 20000 client requests seen = [{2, 5242}, {3, 1972}, {4, 1544}]
+  time = 20000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+  time = 21000 client requests seen = [{2, 5242}, {3, 1972}, {4, 1544}]
+  time = 21000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+  time = 22000 client requests seen = [{2, 5242}, {3, 1972}, {4, 1544}]
+  time = 22000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+  time = 23000 client requests seen = [{2, 5242}, {3, 1972}, {4, 1544}]
+  time = 23000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+  Node server4_04_pg721@127.0.0.1 exiting - maxtime reached
+  Node server3_04_pg721@127.0.0.1 exiting - maxtime reached
+  Node server1_04_pg721@127.0.0.1 exiting - maxtime reached
+  Node client5_04_pg721@127.0.0.1 exiting - maxtime reached
+  Node server2_04_pg721@127.0.0.1 exiting - maxtime reached
+  Node client3_04_pg721@127.0.0.1 exiting - maxtime reached
+  Node client1_04_pg721@127.0.0.1 exiting - maxtime reached
+  Node client4_04_pg721@127.0.0.1 exiting - maxtime reached
+  Node client2_04_pg721@127.0.0.1 exiting - maxtime reached
+  Node server5_04_pg721@127.0.0.1 exiting - maxtime reached
+  time = 24000 client requests seen = [{2, 5242}, {3, 1972}, {4, 1544}]
+  time = 24000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+server 5 is starting an election with term 7
+5 is now leader with term 7
+  Node flooding_04_pg721@127.0.0.1 exiting - maxtime reached
+  time = 25000 client requests seen = [{2, 5242}, {3, 1972}, {4, 1544}]
+  time = 25000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+

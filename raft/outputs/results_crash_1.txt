@@ -1,0 +1,91 @@
+mix compile
+-------------------------------------------------------------------
+calling cluster start
+5 is now leader with term 1
+  time = 1000 client requests seen = [{5, 1627}]
+  time = 1000      db updates done = [{1, 1626}, {2, 1626}, {3, 1626}, {4, 1626}, {5, 1627}]
+
+  time = 2000 client requests seen = [{5, 4137}]
+  time = 2000      db updates done = [{1, 4136}, {2, 4136}, {3, 4136}, {4, 4136}, {5, 4137}]
+
+Server 1 is crashing
+  time = 3000 client requests seen = [{5, 5990}]
+  time = 3000      db updates done = [{1, 4229}, {2, 5988}, {3, 5988}, {4, 5987}, {5, 5988}]
+
+  time = 4000 client requests seen = [{5, 6557}]
+  time = 4000      db updates done = [{1, 4229}, {2, 6553}, {3, 6553}, {4, 6553}, {5, 6555}]
+
+  time = 5000 client requests seen = [{5, 7006}]
+  time = 5000      db updates done = [{1, 4229}, {2, 6998}, {3, 7002}, {4, 7002}, {5, 7003}]
+
+  time = 6000 client requests seen = [{5, 7346}]
+  time = 6000      db updates done = [{1, 4229}, {2, 7337}, {3, 7344}, {4, 7344}, {5, 7344}]
+
+  time = 7000 client requests seen = [{5, 7655}]
+  time = 7000      db updates done = [{1, 4229}, {2, 7638}, {3, 7652}, {4, 7652}, {5, 7652}]
+
+  time = 8000 client requests seen = [{5, 7914}]
+  time = 8000      db updates done = [{1, 4229}, {2, 7901}, {3, 7912}, {4, 7911}, {5, 7912}]
+
+  time = 9000 client requests seen = [{5, 8136}]
+  time = 9000      db updates done = [{1, 4229}, {2, 8122}, {3, 8132}, {4, 8132}, {5, 8132}]
+
+  time = 10000 client requests seen = [{5, 8341}]
+  time = 10000      db updates done = [{1, 4229}, {2, 8325}, {3, 8339}, {4, 8339}, {5, 8339}]
+
+  time = 11000 client requests seen = [{5, 8533}]
+  time = 11000      db updates done = [{1, 4229}, {2, 8516}, {3, 8529}, {4, 8529}, {5, 8529}]
+
+  time = 12000 client requests seen = [{5, 8705}]
+  time = 12000      db updates done = [{1, 4229}, {2, 8690}, {3, 8702}, {4, 8702}, {5, 8703}]
+
+  time = 13000 client requests seen = [{5, 8856}]
+  time = 13000      db updates done = [{1, 4229}, {2, 8842}, {3, 8852}, {4, 8852}, {5, 8853}]
+
+  time = 14000 client requests seen = [{5, 8989}]
+  time = 14000      db updates done = [{1, 4229}, {2, 8981}, {3, 8986}, {4, 8988}, {5, 8988}]
+
+  time = 15000 client requests seen = [{5, 9112}]
+  time = 15000      db updates done = [{1, 4229}, {2, 9101}, {3, 9108}, {4, 9108}, {5, 9108}]
+
+  time = 16000 client requests seen = [{5, 9251}]
+  time = 16000      db updates done = [{1, 4229}, {2, 9232}, {3, 9247}, {4, 9247}, {5, 9248}]
+
+  time = 17000 client requests seen = [{5, 9363}]
+  time = 17000      db updates done = [{1, 4229}, {2, 9356}, {3, 9361}, {4, 9359}, {5, 9362}]
+
+  time = 18000 client requests seen = [{5, 9519}]
+  time = 18000      db updates done = [{1, 4229}, {2, 9504}, {3, 9517}, {4, 9517}, {5, 9518}]
+
+  time = 19000 client requests seen = [{5, 9682}]
+  time = 19000      db updates done = [{1, 4229}, {2, 9662}, {3, 9680}, {4, 9680}, {5, 9680}]
+
+  time = 20000 client requests seen = [{5, 9832}]
+  time = 20000      db updates done = [{1, 4229}, {2, 9819}, {3, 9829}, {4, 9829}, {5, 9829}]
+
+  time = 21000 client requests seen = [{5, 9964}]
+  time = 21000      db updates done = [{1, 4229}, {2, 9950}, {3, 9961}, {4, 9961}, {5, 9961}]
+
+  time = 22000 client requests seen = [{5, 10084}]
+  time = 22000      db updates done = [{1, 4229}, {2, 10069}, {3, 10082}, {4, 10082}, {5, 10082}]
+
+  time = 23000 client requests seen = [{5, 10201}]
+  time = 23000      db updates done = [{1, 4229}, {2, 10187}, {3, 10198}, {4, 10198}, {5, 10198}]
+
+  time = 24000 client requests seen = [{5, 10302}]
+  time = 24000      db updates done = [{1, 4229}, {2, 10292}, {3, 10298}, {4, 10298}, {5, 10298}]
+
+  Node server4_24_pg721@127.0.0.1 exiting - maxtime reached
+  Node server2_24_pg721@127.0.0.1 exiting - maxtime reached
+  Node server5_24_pg721@127.0.0.1 exiting - maxtime reached
+  Node client1_24_pg721@127.0.0.1 exiting - maxtime reached
+  Node client2_24_pg721@127.0.0.1 exiting - maxtime reached
+  Node client4_24_pg721@127.0.0.1 exiting - maxtime reached
+  Node client5_24_pg721@127.0.0.1 exiting - maxtime reached
+  Node server1_24_pg721@127.0.0.1 exiting - maxtime reached
+  Node server3_24_pg721@127.0.0.1 exiting - maxtime reached
+  Node client3_24_pg721@127.0.0.1 exiting - maxtime reached
+  Node flooding_24_pg721@127.0.0.1 exiting - maxtime reached
+  time = 25000 client requests seen = [{5, 10371}]
+  time = 25000      db updates done = [{1, 4229}, {2, 10367}, {3, 10367}, {4, 10367}, {5, 10367}]
+

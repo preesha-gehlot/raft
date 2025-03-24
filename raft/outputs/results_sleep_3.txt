@@ -1,0 +1,105 @@
+mix compile
+-------------------------------------------------------------------
+calling cluster start
+server 2 is starting an election with term 1
+server 5 is starting an election with term 1
+2 is now leader with term 1
+server 5 stepping down from term 1 to term 1
+  time = 1000 client requests seen = [{2, 1595}]
+  time = 1000      db updates done = [{1, 1594}, {2, 1595}, {3, 1594}, {4, 1594}, {5, 1594}]
+
+  time = 2000 client requests seen = [{2, 4110}]
+  time = 2000      db updates done = [{1, 4108}, {2, 4108}, {3, 4108}, {4, 4108}, {5, 4108}]
+
+Server 1 is sleeping
+  time = 3000 client requests seen = [{2, 5393}]
+  time = 3000      db updates done = [{1, 4271}, {2, 5392}, {3, 5392}, {4, 5392}, {5, 5391}]
+
+  time = 4000 client requests seen = [{2, 5912}]
+  time = 4000      db updates done = [{1, 4271}, {2, 5907}, {3, 5907}, {4, 5907}, {5, 5907}]
+
+Server 1 is waking up
+Server 3 is sleeping
+  time = 5000 client requests seen = [{2, 6019}]
+  time = 5000      db updates done = [{1, 5622}, {2, 6017}, {3, 5950}, {4, 6017}, {5, 6017}]
+
+  time = 6000 client requests seen = [{2, 6685}]
+  time = 6000      db updates done = [{1, 6014}, {2, 6683}, {3, 5950}, {4, 6681}, {5, 6681}]
+
+Server 3 is waking up
+Server 4 is sleeping
+  time = 7000 client requests seen = [{2, 6741}]
+  time = 7000      db updates done = [{1, 6458}, {2, 6740}, {3, 6740}, {4, 6710}, {5, 6740}]
+
+  time = 8000 client requests seen = [{2, 7041}]
+  time = 8000      db updates done = [{1, 6731}, {2, 7036}, {3, 7031}, {4, 6710}, {5, 7036}]
+
+Server 4 is waking up
+  time = 9000 client requests seen = [{2, 7169}]
+  time = 9000      db updates done = [{1, 7070}, {2, 7165}, {3, 7165}, {4, 7165}, {5, 7165}]
+
+  time = 10000 client requests seen = [{2, 7377}]
+  time = 10000      db updates done = [{1, 7370}, {2, 7374}, {3, 7374}, {4, 7374}, {5, 7374}]
+
+  time = 11000 client requests seen = [{2, 7608}]
+  time = 11000      db updates done = [{1, 7572}, {2, 7607}, {3, 7607}, {4, 7593}, {5, 7607}]
+
+  time = 12000 client requests seen = [{2, 7773}]
+  time = 12000      db updates done = [{1, 7748}, {2, 7772}, {3, 7771}, {4, 7757}, {5, 7771}]
+
+  time = 13000 client requests seen = [{2, 7976}]
+  time = 13000      db updates done = [{1, 7969}, {2, 7973}, {3, 7973}, {4, 7973}, {5, 7973}]
+
+  time = 14000 client requests seen = [{2, 8133}]
+  time = 14000      db updates done = [{1, 8125}, {2, 8132}, {3, 8132}, {4, 8131}, {5, 8132}]
+
+  time = 15000 client requests seen = [{2, 8270}]
+  time = 15000      db updates done = [{1, 8240}, {2, 8269}, {3, 8269}, {4, 8262}, {5, 8269}]
+
+  time = 16000 client requests seen = [{2, 8366}]
+  time = 16000      db updates done = [{1, 8356}, {2, 8364}, {3, 8364}, {4, 8360}, {5, 8364}]
+
+  time = 17000 client requests seen = [{2, 8471}]
+  time = 17000      db updates done = [{1, 8459}, {2, 8470}, {3, 8470}, {4, 8466}, {5, 8470}]
+
+  time = 18000 client requests seen = [{2, 8587}]
+  time = 18000      db updates done = [{1, 8571}, {2, 8585}, {3, 8585}, {4, 8581}, {5, 8585}]
+
+  time = 19000 client requests seen = [{2, 8675}]
+  time = 19000      db updates done = [{1, 8667}, {2, 8672}, {3, 8672}, {4, 8671}, {5, 8672}]
+
+Node client1_00_pg721@127.0.0.1 Going to Sleep - Client 1 all requests completed = 1750
+Node client4_00_pg721@127.0.0.1 Going to Sleep - Client 4 all requests completed = 1750
+Node client5_00_pg721@127.0.0.1 Going to Sleep - Client 5 all requests completed = 1750
+Node client3_00_pg721@127.0.0.1 Going to Sleep - Client 3 all requests completed = 1750
+  time = 20000 client requests seen = [{2, 8749}]
+  time = 20000      db updates done = [{1, 8747}, {2, 8748}, {3, 8748}, {4, 8748}, {5, 8748}]
+
+Node client2_00_pg721@127.0.0.1 Going to Sleep - Client 2 all requests completed = 1750
+  time = 21000 client requests seen = [{2, 8750}]
+  time = 21000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+  time = 22000 client requests seen = [{2, 8750}]
+  time = 22000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+  time = 23000 client requests seen = [{2, 8750}]
+  time = 23000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+  Node server3_00_pg721@127.0.0.1 exiting - maxtime reached
+  Node client3_00_pg721@127.0.0.1 exiting - maxtime reached
+  Node server2_00_pg721@127.0.0.1 exiting - maxtime reached
+  Node client2_00_pg721@127.0.0.1 exiting - maxtime reached
+  Node server1_00_pg721@127.0.0.1 exiting - maxtime reached
+  Node server4_00_pg721@127.0.0.1 exiting - maxtime reached
+  Node client4_00_pg721@127.0.0.1 exiting - maxtime reached
+  Node client5_00_pg721@127.0.0.1 exiting - maxtime reached
+  Node server5_00_pg721@127.0.0.1 exiting - maxtime reached
+  Node client1_00_pg721@127.0.0.1 exiting - maxtime reached
+  time = 24000 client requests seen = [{2, 8750}]
+  time = 24000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+
+server 5 is starting an election with term 2
+  Node flooding_00_pg721@127.0.0.1 exiting - maxtime reached
+  time = 25000 client requests seen = [{2, 8750}]
+  time = 25000      db updates done = [{1, 8750}, {2, 8750}, {3, 8750}, {4, 8750}, {5, 8750}]
+

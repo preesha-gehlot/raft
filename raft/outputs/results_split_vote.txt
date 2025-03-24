@@ -1,0 +1,46 @@
+mix compile
+Compiling 1 file (.ex)
+-------------------------------------------------------------------
+calling cluster start
+server 3 is starting an election with term 1
+server 1 is starting an election with term 1
+server 5 is starting an election with term 1
+server 3 is starting an election with term 2
+server 4 is starting an election with term 1
+3 is now leader with term 2
+  time = 1000 client requests seen = [{3, 1923}]
+  time = 1000      db updates done = [{1, 1922}, {2, 1922}, {3, 1923}, {4, 1922}, {5, 1922}]
+
+  time = 2000 client requests seen = [{3, 4436}]
+  time = 2000      db updates done = [{1, 4434}, {2, 4434}, {3, 4435}, {4, 4434}, {5, 4434}]
+
+  time = 3000 client requests seen = [{3, 6938}]
+  time = 3000      db updates done = [{1, 6937}, {2, 6937}, {3, 6938}, {4, 6937}, {5, 6937}]
+
+  Node server5_26_pg721@127.0.0.1 exiting - maxtime reached
+  time = 4000 client requests seen = [{3, 9441}]
+  time = 4000      db updates done = [{1, 9440}, {2, 9440}, {3, 9441}, {4, 9440}, {5, 9440}]
+
+  Node server4_26_pg721@127.0.0.1 exiting - maxtime reached
+  Node server3_26_pg721@127.0.0.1 exiting - maxtime reached
+  Node client2_26_pg721@127.0.0.1 exiting - maxtime reached
+  Node client3_26_pg721@127.0.0.1 exiting - maxtime reached
+  Node client5_26_pg721@127.0.0.1 exiting - maxtime reached
+  Node client4_26_pg721@127.0.0.1 exiting - maxtime reached
+  Node server1_26_pg721@127.0.0.1 exiting - maxtime reached
+  Node client1_26_pg721@127.0.0.1 exiting - maxtime reached
+  Node server2_26_pg721@127.0.0.1 exiting - maxtime reached
+  Node flooding_26_pg721@127.0.0.1 exiting - maxtime reached
+  time = 5000 client requests seen = [{3, 11929}]
+  time = 5000      db updates done = [{1, 11928}, {2, 11928}, {3, 11929}, {4, 11928}, {5, 11814}]
+
+server 2 is starting an election with term 3
+server 1 is starting an election with term 4
+server 2 is starting an election with term 5
+server 1 is starting an election with term 5
+server 2 is starting an election with term 6
+server 2 is starting an election with term 7
+server 1 is starting an election with term 8
+server 1 is starting an election with term 9
+server 2 is starting an election with term 10
+server 2 is starting an election with term 11

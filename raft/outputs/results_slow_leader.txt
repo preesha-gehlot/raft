@@ -1,0 +1,46 @@
+mix compile
+Compiling 1 file (.ex)
+-------------------------------------------------------------------
+calling cluster start
+1 is now leader with term 1
+4 is now leader with term 2
+3 is now leader with term 3
+  time = 1000 client requests seen = [{1, 1}, {4, 1}]
+  time = 1000      db updates done = []
+
+  time = 2000 client requests seen = [{1, 3}, {3, 2}, {4, 3}]
+  time = 2000      db updates done = []
+
+  time = 3000 client requests seen = [{1, 5}, {3, 4}, {4, 5}]
+  time = 3000      db updates done = []
+
+1 is stepping down from 1 to 2
+4 is stepping down from 2 to 3
+5 is now leader with term 16
+3 is stepping down from 3 to 4
+5 is stepping down from 16 to 17
+2 is now leader with term 19
+  time = 4000 client requests seen = [{1, 5}, {3, 5}, {4, 5}]
+  time = 4000      db updates done = []
+
+  Node client2_15_pg721@127.0.0.1 exiting - maxtime reached
+  Node client3_15_pg721@127.0.0.1 exiting - maxtime reached
+  Node server3_15_pg721@127.0.0.1 exiting - maxtime reached
+  Node client4_15_pg721@127.0.0.1 exiting - maxtime reached
+  Node server2_15_pg721@127.0.0.1 exiting - maxtime reached
+2 is stepping down from 19 to 20
+5 is now leader with term 22
+  Node client1_15_pg721@127.0.0.1 exiting - maxtime reached
+  Node server5_15_pg721@127.0.0.1 exiting - maxtime reached
+  Node server1_15_pg721@127.0.0.1 exiting - maxtime reached
+  Node client5_15_pg721@127.0.0.1 exiting - maxtime reached
+  Node server4_15_pg721@127.0.0.1 exiting - maxtime reached
+1 is now leader with term 24
+5 is stepping down from 22 to 23
+  Node flooding_15_pg721@127.0.0.1 exiting - maxtime reached
+  time = 5000 client requests seen = [{1, 5}, {3, 5}, {4, 5}]
+  time = 5000      db updates done = []
+
+3 is now leader with term 25
+4 is now leader with term 26
+1 is stepping down from 24 to 25

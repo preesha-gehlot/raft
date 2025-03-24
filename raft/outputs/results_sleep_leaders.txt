@@ -1,0 +1,198 @@
+mix compile
+Compiling 1 file (.ex)
+-------------------------------------------------------------------
+calling cluster start
+5 is now leader with term 1
+  time = 1000 client requests seen = [{5, 1647}]
+  time = 1000      db updates done = [{1, 1645}, {2, 1646}, {3, 1645}, {4, 1646}, {5, 1647}]
+
+  time = 2000 client requests seen = [{5, 4158}]
+  time = 2000      db updates done = [{1, 4157}, {2, 4157}, {3, 4157}, {4, 4157}, {5, 4158}]
+
+  time = 3000 client requests seen = [{5, 6662}]
+  time = 3000      db updates done = [{1, 6660}, {2, 6660}, {3, 6660}, {4, 6660}, {5, 6661}]
+
+  time = 4000 client requests seen = [{5, 9167}]
+  time = 4000      db updates done = [{1, 9165}, {2, 9165}, {3, 9165}, {4, 9165}, {5, 9165}]
+
+  time = 5000 client requests seen = [{5, 11667}]
+  time = 5000      db updates done = [{1, 11665}, {2, 11665}, {3, 11665}, {4, 11665}, {5, 11665}]
+
+Server 5 is sleeping
+3 is now leader with term 2
+  time = 6000 client requests seen = [{3, 1121}, {5, 12312}]
+  time = 6000      db updates done = [{1, 13430}, {2, 13429}, {3, 13430}, {4, 13430}, {5, 12311}]
+
+  time = 7000 client requests seen = [{3, 2237}, {5, 12312}]
+  time = 7000      db updates done = [{1, 14547}, {2, 14547}, {3, 14548}, {4, 14546}, {5, 12311}]
+
+Server 5 is waking up
+  time = 8000 client requests seen = [{3, 2971}, {5, 12316}]
+  time = 8000      db updates done = [{1, 15278}, {2, 15278}, {3, 15278}, {4, 15278}, {5, 12312}]
+
+  time = 9000 client requests seen = [{3, 3509}, {5, 12316}]
+  time = 9000      db updates done = [{1, 15818}, {2, 15818}, {3, 15819}, {4, 15818}, {5, 12336}]
+
+  time = 10000 client requests seen = [{3, 3660}, {5, 12316}]
+  time = 10000      db updates done = [{1, 15971}, {2, 15971}, {3, 15971}, {4, 15971}, {5, 12678}]
+
+Server 3 is sleeping
+1 is now leader with term 3
+  time = 11000 client requests seen = [{1, 4}, {3, 3765}, {5, 12316}]
+  time = 11000      db updates done = [{1, 16076}, {2, 16076}, {3, 16076}, {4, 16076}, {5, 13105}]
+
+  time = 12000 client requests seen = [{1, 4}, {3, 3765}, {5, 12316}]
+  time = 12000      db updates done = [{1, 16076}, {2, 16076}, {3, 16076}, {4, 16076}, {5, 13404}]
+
+Server 3 is waking up
+  time = 13000 client requests seen = [{1, 603}, {3, 3769}, {5, 12316}]
+  time = 13000      db updates done = [{1, 16678}, {2, 16678}, {3, 16658}, {4, 16678}, {5, 13917}]
+
+  time = 14000 client requests seen = [{1, 1348}, {3, 3769}, {5, 12316}]
+  time = 14000      db updates done = [{1, 17422}, {2, 17422}, {3, 17275}, {4, 17422}, {5, 14288}]
+
+  time = 15000 client requests seen = [{1, 1731}, {3, 3769}, {5, 12316}]
+  time = 15000      db updates done = [{1, 17804}, {2, 17804}, {3, 17674}, {4, 17804}, {5, 14388}]
+
+Server 1 is sleeping
+  time = 16000 client requests seen = [{1, 1999}, {3, 3769}, {5, 12316}]
+  time = 16000      db updates done = [{1, 18075}, {2, 18075}, {3, 18049}, {4, 18075}, {5, 14693}]
+
+2 is now leader with term 5
+  time = 17000 client requests seen = [{1, 1999}, {2, 7}, {3, 3769}, {5, 12316}]
+  time = 17000      db updates done = [{1, 18075}, {2, 18078}, {3, 18078}, {4, 18078}, {5, 15038}]
+
+Server 1 is waking up
+  time = 18000 client requests seen = [{1, 2003}, {2, 737}, {3, 3769}, {5, 12316}]
+  time = 18000      db updates done = [{1, 18811}, {2, 18811}, {3, 18811}, {4, 18811}, {5, 15318}]
+
+  time = 19000 client requests seen = [{1, 2003}, {2, 1442}, {3, 3769}, {5, 12316}]
+  time = 19000      db updates done = [{1, 19517}, {2, 19518}, {3, 19517}, {4, 19516}, {5, 15563}]
+
+  time = 20000 client requests seen = [{1, 2003}, {2, 1899}, {3, 3769}, {5, 12316}]
+  time = 20000      db updates done = [{1, 19972}, {2, 19974}, {3, 19973}, {4, 19973}, {5, 15770}]
+
+  time = 21000 client requests seen = [{1, 2003}, {2, 2331}, {3, 3769}, {5, 12316}]
+  time = 21000      db updates done = [{1, 20403}, {2, 20403}, {3, 20403}, {4, 20403}, {5, 15940}]
+
+Server 2 is sleeping
+3 is now leader with term 6
+  time = 22000 client requests seen = [{1, 2003}, {2, 2368}, {3, 3776}, {5, 12316}]
+  time = 22000      db updates done = [{1, 20446}, {2, 20443}, {3, 20446}, {4, 20446}, {5, 15942}]
+
+  time = 23000 client requests seen = [{1, 2003}, {2, 2368}, {3, 3776}, {5, 12316}]
+  time = 23000      db updates done = [{1, 20446}, {2, 20443}, {3, 20446}, {4, 20446}, {5, 16057}]
+
+Server 2 is waking up
+  time = 24000 client requests seen = [{1, 2003}, {2, 2372}, {3, 5356}, {5, 12316}]
+  time = 24000      db updates done = [{1, 22027}, {2, 22029}, {3, 22029}, {4, 22029}, {5, 17160}]
+
+  time = 25000 client requests seen = [{1, 2003}, {2, 2372}, {3, 6166}, {5, 12316}]
+  time = 25000      db updates done = [{1, 22839}, {2, 22839}, {3, 22839}, {4, 22839}, {5, 17680}]
+
+  time = 26000 client requests seen = [{1, 2003}, {2, 2372}, {3, 6729}, {5, 12316}]
+  time = 26000      db updates done = [{1, 23401}, {2, 23401}, {3, 23401}, {4, 23401}, {5, 18070}]
+
+Server 3 is sleeping
+1 is now leader with term 7
+  time = 27000 client requests seen = [{1, 2005}, {2, 2372}, {3, 6889}, {5, 12316}]
+  time = 27000      db updates done = [{1, 23561}, {2, 23561}, {3, 23561}, {4, 23561}, {5, 19042}]
+
+  time = 28000 client requests seen = [{1, 2005}, {2, 2372}, {3, 6889}, {5, 12316}]
+  time = 28000      db updates done = [{1, 23561}, {2, 23561}, {3, 23561}, {4, 23561}, {5, 19655}]
+
+Server 3 is waking up
+Node client1_10_ll4820@127.0.0.1 Going to Sleep - Client 1 all requests completed = 5000
+  time = 29000 client requests seen = [{1, 3249}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 29000      db updates done = [{1, 24810}, {2, 24809}, {3, 24809}, {4, 24808}, {5, 19984}]
+
+Node client4_10_ll4820@127.0.0.1 Going to Sleep - Client 4 all requests completed = 5000
+Node client3_10_ll4820@127.0.0.1 Going to Sleep - Client 3 all requests completed = 5000
+Node client5_10_ll4820@127.0.0.1 Going to Sleep - Client 5 all requests completed = 5000
+Node client2_10_ll4820@127.0.0.1 Going to Sleep - Client 2 all requests completed = 5000
+  time = 30000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 30000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 20334}]
+
+  time = 31000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 31000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 21449}]
+
+Server 1 is sleeping
+4 is now leader with term 8
+  time = 32000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 32000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 22015}]
+
+  time = 33000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 33000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 22421}]
+
+Server 1 is waking up
+  time = 34000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 34000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 22734}]
+
+  time = 35000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 35000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 23049}]
+
+  time = 36000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 36000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 23298}]
+
+Server 4 is sleeping
+2 is now leader with term 9
+  time = 37000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 37000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 23524}]
+
+  time = 38000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 38000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 24675}]
+
+Server 4 is waking up
+  time = 39000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 39000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 25000}]
+
+  time = 40000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 40000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 25000}]
+
+  time = 41000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 41000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 25000}]
+
+Server 2 is sleeping
+  time = 42000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 42000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 25000}]
+
+5 is now leader with term 10
+  time = 43000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 43000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 25000}]
+
+Server 2 is waking up
+  time = 44000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 44000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 25000}]
+
+  time = 45000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 45000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 25000}]
+
+  time = 46000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 46000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 25000}]
+
+  time = 47000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 47000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 25000}]
+
+Server 5 is sleeping
+2 is now leader with term 11
+  time = 48000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 48000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 25000}]
+
+  Node client1_10_ll4820@127.0.0.1 exiting - maxtime reached
+  time = 49000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 49000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 25000}]
+
+Server 5 is waking up
+  Node server3_10_ll4820@127.0.0.1 exiting - maxtime reached
+  Node client4_10_ll4820@127.0.0.1 exiting - maxtime reached
+  Node server5_10_ll4820@127.0.0.1 exiting - maxtime reached
+  Node client2_10_ll4820@127.0.0.1 exiting - maxtime reached
+  Node server2_10_ll4820@127.0.0.1 exiting - maxtime reached
+  Node server1_10_ll4820@127.0.0.1 exiting - maxtime reached
+  Node client5_10_ll4820@127.0.0.1 exiting - maxtime reached
+  Node server4_10_ll4820@127.0.0.1 exiting - maxtime reached
+  Node client3_10_ll4820@127.0.0.1 exiting - maxtime reached
+  Node flooding_10_ll4820@127.0.0.1 exiting - maxtime reached
+  time = 50000 client requests seen = [{1, 3439}, {2, 2372}, {3, 6891}, {5, 12316}]
+  time = 50000      db updates done = [{1, 25000}, {2, 25000}, {3, 25000}, {4, 25000}, {5, 25000}]
+

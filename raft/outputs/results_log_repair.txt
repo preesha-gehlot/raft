@@ -1,0 +1,62 @@
+mix compile
+Compiling 1 file (.ex)
+-------------------------------------------------------------------
+calling cluster start
+server 3 has log %{1 => %{term: 1, cmd: {:MOVE, 100, 2, 5}, cid: {1, 1}, clientP: nil}, 2 => %{term: 2, cmd: {:MOVE, 100, 2, 5}, cid: {1, 2}, clientP: nil}, 3 => %{term: 3, cmd: {:MOVE, 100, 2, 5}, cid: {1, 3}, clientP: nil}}
+server 2 has log %{1 => %{term: 1, cmd: {:MOVE, 100, 2, 5}, cid: {1, 1}, clientP: nil}, 2 => %{term: 2, cmd: {:MOVE, 100, 2, 5}, cid: {1, 2}, clientP: nil}, 3 => %{term: 3, cmd: {:MOVE, 100, 2, 5}, cid: {1, 3}, clientP: nil}}
+server 1 has log %{1 => %{term: 1, cmd: {:MOVE, 100, 2, 5}, cid: {1, 1}, clientP: nil}, 2 => %{term: 2, cmd: {:MOVE, 100, 2, 5}, cid: {1, 2}, clientP: nil}, 3 => %{term: 2, cmd: {:MOVE, 100, 2, 5}, cid: {1, 3}, clientP: nil}, 4 => %{term: 2, cmd: {:MOVE, 100, 2, 5}, cid: {1, 4}, clientP: nil}, 5 => %{term: 2, cmd: {:MOVE, 100, 2, 5}, cid: {1, 5}, clientP: nil}}
+Node client1_51_pg721@127.0.0.1 Going to Sleep - Client 1 all requests completed = 0
+2 is now leader with term 3
+server 1 is storing entries %{3 => %{term: 3, cmd: {:MOVE, 100, 2, 5}, cid: {1, 3}, clientP: nil}}
+updating commit index to 3
+updating commit index to 3
+  time = 1000 client requests seen = []
+  time = 1000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  time = 2000 client requests seen = []
+  time = 2000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  time = 3000 client requests seen = []
+  time = 3000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  time = 4000 client requests seen = []
+  time = 4000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  time = 5000 client requests seen = []
+  time = 5000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  time = 6000 client requests seen = []
+  time = 6000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  time = 7000 client requests seen = []
+  time = 7000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  time = 8000 client requests seen = []
+  time = 8000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  time = 9000 client requests seen = []
+  time = 9000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  time = 10000 client requests seen = []
+  time = 10000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  time = 11000 client requests seen = []
+  time = 11000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  time = 12000 client requests seen = []
+  time = 12000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  Node client1_51_pg721@127.0.0.1 exiting - maxtime reached
+  Node server3_51_pg721@127.0.0.1 exiting - maxtime reached
+  Node server1_51_pg721@127.0.0.1 exiting - maxtime reached
+  Node server2_51_pg721@127.0.0.1 exiting - maxtime reached
+  time = 13000 client requests seen = []
+  time = 13000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  time = 14000 client requests seen = []
+  time = 14000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+
+  Node flooding_51_pg721@127.0.0.1 exiting - maxtime reached
+  time = 15000 client requests seen = []
+  time = 15000      db updates done = [{1, 3}, {2, 3}, {3, 3}]
+

@@ -1,0 +1,222 @@
+mix compile
+Compiling 2 files (.ex)
+-------------------------------------------------------------------
+calling cluster start
+server 2 is starting an election with term 1
+server 1 is starting an election with term 1
+server 3 is starting an election with term 1
+server 4 is starting an election with term 1
+server 2 is starting an election with term 2
+2 is now leader with term 2
+  time = 1000 client requests seen = [{2, 1499}]
+  time = 1000      db updates done = [{1, 1498}, {2, 1499}, {3, 1498}, {4, 1498}, {5, 1497}]
+
+  time = 2000 client requests seen = [{2, 4018}]
+  time = 2000      db updates done = [{1, 4017}, {2, 4017}, {3, 4017}, {4, 4017}, {5, 4017}]
+
+  time = 3000 client requests seen = [{2, 5336}]
+  time = 3000      db updates done = [{1, 5333}, {2, 5333}, {3, 5287}, {4, 5328}, {5, 5333}]
+
+Server 2 is crashing
+server 4 is starting an election with term 3
+4 is now leader with term 3
+  time = 4000 client requests seen = [{2, 5734}, {4, 1015}]
+  time = 4000      db updates done = [{1, 6747}, {2, 5734}, {3, 6747}, {4, 6747}, {5, 6747}]
+
+  time = 5000 client requests seen = [{2, 5734}, {4, 2065}]
+  time = 5000      db updates done = [{1, 7798}, {2, 5734}, {3, 7798}, {4, 7799}, {5, 7798}]
+
+  time = 6000 client requests seen = [{2, 5734}, {4, 2786}]
+  time = 6000      db updates done = [{1, 8519}, {2, 5734}, {3, 8518}, {4, 8519}, {5, 8518}]
+
+Server 4 is crashing
+server 3 is starting an election with term 4
+3 is now leader with term 4
+  time = 7000 client requests seen = [{2, 5734}, {3, 565}, {4, 3092}]
+  time = 7000      db updates done = [{1, 9387}, {2, 5734}, {3, 9387}, {4, 8824}, {5, 9387}]
+
+  time = 8000 client requests seen = [{2, 5734}, {3, 1368}, {4, 3092}]
+  time = 8000      db updates done = [{1, 10189}, {2, 5734}, {3, 10189}, {4, 8824}, {5, 10189}]
+
+  time = 9000 client requests seen = [{2, 5734}, {3, 1896}, {4, 3092}]
+  time = 9000      db updates done = [{1, 10717}, {2, 5734}, {3, 10717}, {4, 8824}, {5, 10717}]
+
+Server 3 is crashing
+server 5 is starting an election with term 5
+server 1 is starting an election with term 6
+  time = 10000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 10000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 5 is starting an election with term 7
+server 1 is starting an election with term 7
+server 1 is starting an election with term 8
+server 5 is starting an election with term 9
+server 1 is starting an election with term 10
+server 1 is starting an election with term 11
+server 5 is starting an election with term 12
+server 1 is starting an election with term 13
+server 1 is starting an election with term 14
+  time = 11000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 11000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 5 is starting an election with term 15
+server 1 is starting an election with term 16
+server 5 is starting an election with term 17
+server 5 is starting an election with term 18
+server 5 is starting an election with term 19
+server 5 is starting an election with term 20
+server 5 is starting an election with term 21
+  time = 12000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 12000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 5 is starting an election with term 22
+server 1 is starting an election with term 23
+server 5 is starting an election with term 24
+server 1 is starting an election with term 25
+server 1 is starting an election with term 26
+server 1 is starting an election with term 27
+server 1 is starting an election with term 28
+  time = 13000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 13000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 5 is starting an election with term 29
+server 1 is starting an election with term 30
+server 5 is starting an election with term 31
+server 1 is starting an election with term 32
+server 5 is starting an election with term 33
+server 5 is starting an election with term 34
+server 5 is starting an election with term 35
+server 1 is starting an election with term 36
+server 5 is starting an election with term 37
+  time = 14000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 14000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 5 is starting an election with term 38
+server 5 is starting an election with term 39
+server 1 is starting an election with term 40
+server 5 is starting an election with term 41
+server 5 is starting an election with term 42
+server 1 is starting an election with term 43
+server 1 is starting an election with term 44
+  time = 15000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 15000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 1 is starting an election with term 45
+server 5 is starting an election with term 46
+server 1 is starting an election with term 47
+server 1 is starting an election with term 48
+server 5 is starting an election with term 49
+server 1 is starting an election with term 50
+server 5 is starting an election with term 51
+  time = 16000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 16000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 5 is starting an election with term 52
+server 5 is starting an election with term 53
+server 5 is starting an election with term 54
+server 5 is starting an election with term 55
+server 1 is starting an election with term 56
+server 1 is starting an election with term 57
+server 5 is starting an election with term 58
+server 1 is starting an election with term 59
+  time = 17000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 17000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 1 is starting an election with term 60
+server 1 is starting an election with term 61
+server 1 is starting an election with term 62
+server 1 is starting an election with term 63
+server 1 is starting an election with term 64
+server 5 is starting an election with term 65
+server 1 is starting an election with term 66
+server 5 is starting an election with term 67
+  time = 18000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 18000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 1 is starting an election with term 68
+server 5 is starting an election with term 69
+server 1 is starting an election with term 70
+server 1 is starting an election with term 71
+server 1 is starting an election with term 72
+server 1 is starting an election with term 73
+server 5 is starting an election with term 74
+  time = 19000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 19000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 5 is starting an election with term 75
+server 5 is starting an election with term 76
+server 1 is starting an election with term 77
+server 1 is starting an election with term 78
+server 1 is starting an election with term 79
+server 5 is starting an election with term 80
+  time = 20000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 20000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 5 is starting an election with term 81
+server 5 is starting an election with term 82
+server 5 is starting an election with term 83
+server 5 is starting an election with term 84
+server 1 is starting an election with term 84
+server 5 is starting an election with term 85
+server 5 is starting an election with term 86
+server 5 is starting an election with term 87
+  time = 21000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 21000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 1 is starting an election with term 88
+server 5 is starting an election with term 89
+server 1 is starting an election with term 90
+server 5 is starting an election with term 91
+server 5 is starting an election with term 92
+server 1 is starting an election with term 93
+server 1 is starting an election with term 94
+server 5 is starting an election with term 95
+  time = 22000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 22000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 1 is starting an election with term 96
+server 1 is starting an election with term 97
+server 5 is starting an election with term 98
+server 1 is starting an election with term 99
+server 5 is starting an election with term 100
+server 1 is starting an election with term 101
+server 1 is starting an election with term 102
+  time = 23000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 23000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 5 is starting an election with term 103
+server 1 is starting an election with term 104
+server 1 is starting an election with term 105
+server 1 is starting an election with term 106
+server 1 is starting an election with term 107
+  Node client4_27_ll4820@127.0.0.1 exiting - maxtime reached
+server 1 is starting an election with term 108
+server 1 is starting an election with term 109
+  time = 24000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 24000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 5 is starting an election with term 110
+  Node server5_27_ll4820@127.0.0.1 exiting - maxtime reached
+  Node server3_27_ll4820@127.0.0.1 exiting - maxtime reached
+server 1 is starting an election with term 111
+  Node client5_27_ll4820@127.0.0.1 exiting - maxtime reached
+server 5 is starting an election with term 112
+  Node server4_27_ll4820@127.0.0.1 exiting - maxtime reached
+  Node client3_27_ll4820@127.0.0.1 exiting - maxtime reached
+  Node server2_27_ll4820@127.0.0.1 exiting - maxtime reached
+  Node client1_27_ll4820@127.0.0.1 exiting - maxtime reached
+server 5 is starting an election with term 113
+  Node client2_27_ll4820@127.0.0.1 exiting - maxtime reached
+  Node server1_27_ll4820@127.0.0.1 exiting - maxtime reached
+server 1 is starting an election with term 114
+server 1 is starting an election with term 115
+  Node flooding_27_ll4820@127.0.0.1 exiting - maxtime reached
+server 5 is starting an election with term 116
+  time = 25000 client requests seen = [{2, 5734}, {3, 2188}, {4, 3092}]
+  time = 25000      db updates done = [{1, 11009}, {2, 5734}, {3, 11009}, {4, 8824}, {5, 11009}]
+
+server 5 is starting an election with term 117
+server 1 is starting an election with term 118
+server 1 is starting an election with term 119
+server 1 is starting an election with term 120
+server 1 is starting an election with term 121

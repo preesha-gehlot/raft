@@ -1,0 +1,101 @@
+mix compile
+Compiling 1 file (.ex)
+-------------------------------------------------------------------
+calling cluster start
+server 2 is starting an election with term 1
+server 4 is starting an election with term 1
+server 5 is starting an election with term 1
+server 3 is starting an election with term 1
+server 1 is starting an election with term 1
+server 2 is starting an election with term 2
+2 is now leader with term 2
+  time = 1000 client requests seen = [{2, 1540}]
+  time = 1000      db updates done = [{1, 1538}, {2, 1540}, {3, 1539}, {4, 1539}, {5, 1539}]
+
+  time = 2000 client requests seen = [{2, 4055}]
+  time = 2000      db updates done = [{1, 4054}, {2, 4055}, {3, 4054}, {4, 4054}, {5, 4054}]
+
+Server 1 is crashing
+  time = 3000 client requests seen = [{2, 5756}]
+  time = 3000      db updates done = [{1, 4170}, {2, 5753}, {3, 5753}, {4, 5753}, {5, 5752}]
+
+  time = 4000 client requests seen = [{2, 6592}]
+  time = 4000      db updates done = [{1, 4170}, {2, 6590}, {3, 6590}, {4, 6590}, {5, 6590}]
+
+  time = 5000 client requests seen = [{2, 7242}]
+  time = 5000      db updates done = [{1, 4170}, {2, 7240}, {3, 7240}, {4, 7240}, {5, 7240}]
+
+Server 3 is crashing
+  time = 6000 client requests seen = [{2, 7755}]
+  time = 6000      db updates done = [{1, 4170}, {2, 7753}, {3, 7285}, {4, 7752}, {5, 7753}]
+
+  time = 7000 client requests seen = [{2, 8179}]
+  time = 7000      db updates done = [{1, 4170}, {2, 8177}, {3, 7285}, {4, 8176}, {5, 8177}]
+
+  time = 8000 client requests seen = [{2, 8543}]
+  time = 8000      db updates done = [{1, 4170}, {2, 8541}, {3, 7285}, {4, 8540}, {5, 8541}]
+
+Server 4 is crashing
+  time = 9000 client requests seen = [{2, 8562}]
+  time = 9000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 10000 client requests seen = [{2, 8562}]
+  time = 10000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 11000 client requests seen = [{2, 8562}]
+  time = 11000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 12000 client requests seen = [{2, 8562}]
+  time = 12000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 13000 client requests seen = [{2, 8562}]
+  time = 13000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 14000 client requests seen = [{2, 8562}]
+  time = 14000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 15000 client requests seen = [{2, 8562}]
+  time = 15000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 16000 client requests seen = [{2, 8562}]
+  time = 16000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 17000 client requests seen = [{2, 8562}]
+  time = 17000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 18000 client requests seen = [{2, 8562}]
+  time = 18000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 19000 client requests seen = [{2, 8562}]
+  time = 19000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 20000 client requests seen = [{2, 8562}]
+  time = 20000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 21000 client requests seen = [{2, 8562}]
+  time = 21000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 22000 client requests seen = [{2, 8562}]
+  time = 22000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 23000 client requests seen = [{2, 8562}]
+  time = 23000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  time = 24000 client requests seen = [{2, 8562}]
+  time = 24000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+  Node client2_14_ll4820@127.0.0.1 exiting - maxtime reached
+  Node server2_14_ll4820@127.0.0.1 exiting - maxtime reached
+  Node client4_14_ll4820@127.0.0.1 exiting - maxtime reached
+  Node server5_14_ll4820@127.0.0.1 exiting - maxtime reached
+  Node client5_14_ll4820@127.0.0.1 exiting - maxtime reached
+  Node server1_14_ll4820@127.0.0.1 exiting - maxtime reached
+  Node server3_14_ll4820@127.0.0.1 exiting - maxtime reached
+  Node client1_14_ll4820@127.0.0.1 exiting - maxtime reached
+  Node client3_14_ll4820@127.0.0.1 exiting - maxtime reached
+  Node server4_14_ll4820@127.0.0.1 exiting - maxtime reached
+  Node flooding_14_ll4820@127.0.0.1 exiting - maxtime reached
+  time = 25000 client requests seen = [{2, 8562}]
+  time = 25000      db updates done = [{1, 4170}, {2, 8557}, {3, 7285}, {4, 8557}, {5, 8557}]
+
+server 5 is starting an election with term 3
