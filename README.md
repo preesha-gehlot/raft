@@ -1,5 +1,5 @@
 # Raft
-
+An implementation of the raft consensus protocol, as inspired by https://raft.github.io/raft.pdf. Added tests and output logs of different conditions. 
 To run the file, use make run
 
 ## Installation
